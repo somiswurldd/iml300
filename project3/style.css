@@ -16,3 +16,8 @@ background-color: cornsilk}
     src: url("https://cdn.glitch.global/1524de67-6e0c-4290-812a-b525414888dc/Satisfy.ttf?v=1668550400478")
 }
 
+.typing-container {
+position: fixed;
+top: 200px;
+left: 300px;}
+font-family: satify,sans-serif;
