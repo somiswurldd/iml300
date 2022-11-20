@@ -13,11 +13,37 @@ background-color: cornsilk}
 
 @font-face {
     font-family: "satisfy";
-    src: url("https://cdn.glitch.global/1524de67-6e0c-4290-812a-b525414888dc/Satisfy.ttf?v=1668550400478")
+    src: url("assets/Satisfy-Regular")
 }
 
 .typing-container {
 position: fixed;
-top: 200px;
-left: 300px;}
+top: 150px;
+left: 650px;}
 font-family: satify,sans-serif;
+
+div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+   
+ h1{
+   font-size: 5em;
+   font-family: serif;
+   color:#008000;
+   text-align: center;
+   animation: animate 1.5s linear infinite;
+ } 
+  
+ @keyframes animate{
+   0%{
+     opacity: 0;
+   }
+   50%{
+     opacity: 0.7;
+   }
+   100%{
+     opacity: 0;
+   }
