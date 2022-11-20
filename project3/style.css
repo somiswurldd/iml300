@@ -1,50 +1,18 @@
 body {
-    background-image: url("https://cdn.glitch.global/1524de67-6e0c-4290-812a-b525414888dc/girls-montage.jpg?v=1668479124534");
-    */ background-size: cover;
-}
+background-color: cornsilk}
 
 
-.glitch {
+.eyes {
     position: fixed;
     left: 600px;
     width: 350px;
-    top: 400px;
-}
-
-.tv {
-    position: fixed;
-    left: 350px;
     top: 200px;
-    border: 2px solid red;
 }
 
-.hide {
-    display: none;
 
-}
-
-.show {
-    display: block;
-}
 
 @font-face {
     font-family: "satisfy";
     src: url("https://cdn.glitch.global/1524de67-6e0c-4290-812a-b525414888dc/Satisfy.ttf?v=1668550400478")
 }
 
-#visible {
-    position: center;
-    font-family: satisfy, sans-serif;
-    left: 650px;
-    top: 200px;
-    size: 400px;
-}
-
-#invisible {
-    position: center;
-    font-family: satisfy, sans-serif;
-    left: 650px;
-    top: 200px;
-    size: 400px;
-    color: #FF7A59;
-}
