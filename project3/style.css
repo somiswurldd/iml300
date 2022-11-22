@@ -1,49 +1,60 @@
 body {
-background-color: cornsilk}
+    background-color: cornsilk
+}
 
 
 .eyes {
     position: fixed;
     left: 600px;
     width: 350px;
-    top: 200px;
+    top: 250px;
 }
 
 
 
 @font-face {
     font-family: "satisfy";
-    src: url("assets/Satisfy-Regular")
+    src: url("assets/Satisfy-Regular.ttf")
 }
 
 .typing-container {
-position: fixed;
-top: 150px;
-left: 650px;}
-font-family: satify,sans-serif;
-
-div{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    position: fixed;
+    top: 150px;
+    left: 650px;
 }
+
+font-family: "satisfy",
+sans-serif;
+
+div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    position: fixed;
+    top: 400px;
+    left: 500px;
+    font-size: 5em;
+    font-family: "satisfy", sans-serif;
+    color: #00195E;
+    animation: animate 2.5s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+
    
- h1{
-   font-size: 5em;
-   font-family: serif;
-   color:#008000;
-   text-align: center;
-   animation: animate 1.5s linear infinite;
- } 
-  
- @keyframes animate{
-   0%{
-     opacity: 0;
-   }
-   50%{
-     opacity: 0.7;
-   }
-   100%{
-     opacity: 0;
-   }
