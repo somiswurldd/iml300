@@ -57,4 +57,10 @@ h1 {
     }
 
 
-   
+    .sus{
+        position: fixed;
+left:300px;
+top:200px;
+        height: 600px;
+width: 300px;
+    }
