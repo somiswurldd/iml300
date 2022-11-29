@@ -86,8 +86,8 @@ h1 {
 
 .elders {
     position: fixed;
-    top: 200px;
-    left: 900px;
+    top: 90px;
+    left: 1050px;
     filter: blur(15px);
 }
 
@@ -117,13 +117,24 @@ h1 {
 }
 
 .page {
-
-    background-image: url(assets/girl.gif) background-size: cover;
+ display: flex
+  min-height: 100vh
+  justify-content: center
+  align-items: center
+  background: #EAEBEA
+  font-family: 'Slabo 27px', serif;
 }
-
+#text-effect{
+  display: none
+  font-size: 1.8em
+}
+span{
+    position: relative
+}
 audio{
 display:none;
 }
+
 /*page4*/
 
 .azula {
