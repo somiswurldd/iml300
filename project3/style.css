@@ -1,5 +1,6 @@
 body {
-    background-color: cornsilk
+    background-color: cornsilk;
+cursor: url('assets/eye.png'),auto;
 }
 
 
@@ -26,9 +27,9 @@ h5{
 position:fixed;
     top:200px;
     left: 690px;
-}
+
 font-family: "satisfy",
-sans-serif;
+    sans-serif;}
 
 div {
     position: absolute;
@@ -241,6 +242,7 @@ h2 {
 
 .three {
     background-color: white;
+
 }
 
 @font-face {
@@ -323,3 +325,4 @@ color:lightpink
 .four{
 background-image: url(assets/bedroom.gif);
 background-size: cover;
+}
