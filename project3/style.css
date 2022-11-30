@@ -100,7 +100,7 @@ h1 {
     font-size: 15px;
     left: 5px padding-left: 1em;
     font-family: "indie", sans-serif;
-    
+
 }
 
 .realtext {
@@ -108,14 +108,14 @@ h1 {
     font-size: 15px;
     left: 5px padding-left: 1em;
     font-family: "indie", sans-serif;
-    
+
 }
 
 .elderstext {
     position: absolute;
     font-size: 12px;
     font-family: "indie", sans-serif;
-   
+
 
 }
 
@@ -129,63 +129,168 @@ audio {
 
 /*page4*/
 
-.azula {
+.azuladiv {
     position: fixed;
     top: 100px;
     left: 100px;
     width: 200px;
 }
 
-.maleficent{
-    position:fixed;
-top: 350px;
-right: 500px;
+.maleficentdiv {
+    position: fixed;
+    top: 350px;
     width: 200px;
-    left: 100px
+    left: 100px;
 }
 
-.chihirodiv{
+.chihirodiv {
     position: fixed;
-top: 600px;
+    top: 600px;
     left: 100px;
     width: 200px;
 }
 
 .hide {
     position: fixed;
-top: 600px;
-left: 200px;
-display:none;}
+    top: 650px;
+    left: 350px;
+    display: none;
+}
 
-.chihirodiv:hover +.hide{
-    display:block;
+.chihirodiv:hover + .hide {
+    display: block;
     color: red;
 }
 
 
 .typeAction {
-		visibility:hidden;
-	}
-	span {
-		padding-left:2px;
-		animation: blink 700ms steps(1) infinite: ;
-	  -webkit-animation: blink 700ms steps(1) infinite;
-	}
-		@keyframes blink { 50% { color: transparent; } }
-		@-webkit-keyframes blink { 50% { color: transparent; } }
-	}
+    visibility: hidden;
+}
+
+span {
+    padding-left: 2px;
+    animation: blink 700ms steps(1) infinite:;
+    -webkit-animation: blink 700ms steps(1) infinite;
+}
+
+@keyframes blink {
+    50% {
+        color: transparent;
+    }
+}
+
+@-webkit-keyframes blink {
+    50% {
+        color: transparent;
+    }
+}
+}
+
 @font-face {
     font-family: "architect";
     src: url("assets/architect.ttf")
 }
-h2{
-position: fixed;
+
+h2 {
+    position: fixed;
     top: 100px;
     left: 600px;
-    color:white;
- font-family: "architect";
-    
-    
+    color: white;
+    font-family: "architect", sans-serif;
+
+
+}
+
+.hidetwo {
+    position: fixed;
+    top: 400px;
+    left: 350px;
+    display: none;
 }
 
 
+.maleficentdiv:hover + .hidetwo {
+
+    display: block;
+    color: Red;
+}
+
+.hidethree {
+    position: fixed;
+    top: 150px;
+    left: 400px;
+    display: none;
+}
+
+
+.azuladiv:hover + .hidethree {
+    display: block;
+    color: Red;
+}
+
+.three {
+    background-color: white;
+}
+
+@font-face {
+    font-family: "coming";
+    src: url("assets/coming.ttf")
+}
+
+.start-text {
+    position: fixed;
+    color: yellowgreen;
+    font-family: "coming", sans-serif;
+    font-size: 30px;
+    top: 200px;
+    left: 200px;
+
+}
+
+#text-2 {
+    color: red
+}
+
+#text-4 {
+    color: red
+}
+
+#text-5 {
+    color: red
+}
+
+#text-6 {
+    color: red
+}
+
+#text-8 {
+    color: red
+}
+
+#text-10 {
+    color: red
+}
+
+#text-12 {
+    color: red
+}
+
+#text-14 {
+    color: red
+}
+
+#text-15 {
+    color: red
+}
+
+#text-16 {
+    color: red
+}
+
+#text-18 {
+    color: red
+}
+
+#text-21 {
+    color: red
+}
