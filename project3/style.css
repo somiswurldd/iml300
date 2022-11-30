@@ -86,8 +86,8 @@ h1 {
 
 .elders {
     position: fixed;
-    top: 90px;
-    left: 1050px;
+    top: 200px;
+    left: 950px;
     filter: blur(15px);
 }
 
@@ -100,6 +100,7 @@ h1 {
     font-size: 15px;
     left: 5px padding-left: 1em;
     font-family: "indie", sans-serif;
+    
 }
 
 .realtext {
@@ -107,12 +108,14 @@ h1 {
     font-size: 15px;
     left: 5px padding-left: 1em;
     font-family: "indie", sans-serif;
+    
 }
 
 .elderstext {
     position: absolute;
-    font-size: 13px;
+    font-size: 12px;
     font-family: "indie", sans-serif;
+   
 
 }
 
@@ -158,3 +161,31 @@ display:none;}
     display:block;
     color: red;
 }
+
+
+.typeAction {
+		visibility:hidden;
+	}
+	span {
+		padding-left:2px;
+		animation: blink 700ms steps(1) infinite: ;
+	  -webkit-animation: blink 700ms steps(1) infinite;
+	}
+		@keyframes blink { 50% { color: transparent; } }
+		@-webkit-keyframes blink { 50% { color: transparent; } }
+	}
+@font-face {
+    font-family: "architect";
+    src: url("assets/architect.ttf")
+}
+h2{
+position: fixed;
+    top: 100px;
+    left: 600px;
+    color:white;
+ font-family: "architect";
+    
+    
+}
+
+
