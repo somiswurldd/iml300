@@ -111,7 +111,7 @@ h1 {
 
 .elderstext {
     position: absolute;
-    font-size: 15px;
+    font-size: 13px;
     font-family: "indie", sans-serif;
 
 }
@@ -149,6 +149,9 @@ top: 600px;
 }
 
 .hide {
+    position: fixed;
+top: 600px;
+left: 200px;
 display:none;}
 
 .chihirodiv:hover +.hide{
