@@ -22,7 +22,11 @@ body {
     top: 150px;
     left: 650px;
 }
-
+h5{
+position:fixed;
+    top:200px;
+    left: 690px;
+}
 font-family: "satisfy",
 sans-serif;
 
@@ -155,11 +159,13 @@ audio {
     top: 650px;
     left: 350px;
     display: none;
+    font-family: "kumbh",sans-serif;
+    color: orangered;
 }
 
 .chihirodiv:hover + .hide {
     display: block;
-    color: red;
+    color: cornsilk;
 }
 
 
@@ -206,26 +212,31 @@ h2 {
     top: 400px;
     left: 350px;
     display: none;
+    font-family: "kumbh", sans-serif;
+    font-size: 14px;
+    
 }
 
 
 .maleficentdiv:hover + .hidetwo {
 
     display: block;
-    color: Red;
+    color: cornsilk;
 }
 
 .hidethree {
     position: fixed;
     top: 150px;
-    left: 400px;
+    left: 350px;
     display: none;
+    font-family: "kumbh", sans-serif;
+    
 }
 
 
 .azuladiv:hover + .hidethree {
     display: block;
-    color: Red;
+    color: cornsilk;
 }
 
 .three {
@@ -243,7 +254,7 @@ h2 {
     font-family: "coming", sans-serif;
     font-size: 30px;
     top: 200px;
-    left: 200px;
+    left: 100px;
 
 }
 
@@ -294,3 +305,21 @@ h2 {
 #text-21 {
     color: red
 }
+
+@font-face {
+    font-family: "kumbh";
+    src: url("assets/kumbh.ttf")
+}
+
+h4{
+    font-family: "indie",sans-serif;
+position: fixed;
+    left: 600px;
+    font-size: 40px;
+color:lightpink
+    
+}
+
+.four{
+background-image: url(assets/bedroom.gif);
+background-size: cover;
