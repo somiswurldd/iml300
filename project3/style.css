@@ -116,29 +116,42 @@ h1 {
 
 }
 
-.page {
- display: flex
-  min-height: 100vh
-  justify-content: center
-  align-items: center
-  background: #EAEBEA
-  font-family: 'Slabo 27px', serif;
+audio {
+    display: none;
 }
-#text-effect{
-  display: none
-  font-size: 1.8em
-}
-span{
-    position: relative
-}
-audio{
-display:none;
+
+.demo {
+    top: 100px;
 }
 
 /*page4*/
 
 .azula {
     position: fixed;
-    top: "600";
-    right: "300";
+    top: 100px;
+    left: 100px;
+    width: 200px;
+}
+
+.maleficent{
+    position:fixed;
+top: 350px;
+right: 500px;
+    width: 200px;
+    left: 100px
+}
+
+.chihirodiv{
+    position: fixed;
+top: 600px;
+    left: 100px;
+    width: 200px;
+}
+
+.hide {
+display:none;}
+
+.chihirodiv:hover +.hide{
+    display:block;
+    color: red;
 }
