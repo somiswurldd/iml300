@@ -1,4 +1,4 @@
-$('h1').typeWrite({
+$('h2').typeWrite({
   speed: 30,
   repeat: false,
   cursor: true,
