@@ -37,7 +37,7 @@ div {
 
 h6 {
     position: fixed;
-    top: 1px;
+    top: 1em;
     left: 1em;
     font-size: 5em;
     font-family: "satisfy", sans-serif;
