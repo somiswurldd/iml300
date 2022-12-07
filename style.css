@@ -1,9 +1,49 @@
 body {
-    background-color: lime;
+    background-color: "white";
 }
 
-img {
-    width: 200px;
-    height: 200px;
-/*    transition: width 2s, height 2s;*/
-}#efa8a8
+h1 {
+position: fixed;
+left: 600px;
+}
+
+p{
+    position: fixed;
+    left: 400px;
+    top: 100px;
+}
+
+div1 {
+    position: fixed;
+    font-size: 20px;
+    top:200px;
+}
+
+div2{
+    position: fixed;
+    top:200px;
+    left:600px;
+}
+
+div3{
+    position: fixed;
+    top: 200px;
+left: 1000px;
+}
+
+h8{
+position: fixed;
+top: 200px;
+left: 300px;}
+
+p2{
+    position:fixed;
+    top: 300px;
+    left: 300px;
+}
+
+p3{
+    position: fixed;
+    top: 400px;
+    
+}
