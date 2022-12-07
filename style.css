@@ -38,12 +38,34 @@ left: 300px;}
 
 p2{
     position:fixed;
-    top: 300px;
+    top: 250px;
     left: 300px;
 }
 
 p3{
     position: fixed;
-    top: 400px;
+    top: 300px;
+left: 300px;
     
 }
+
+p4 {
+    position: fixed;
+top: 350px;
+    left: 300px
+}
+
+p5{
+position: fixed;
+top: 400px;
+left: 300px;}
+
+p6{
+position: fixed;
+top: 450px;
+left: 300px;}
+
+h9{
+position: fixed;
+top: 200px;
+right: 200px;}
